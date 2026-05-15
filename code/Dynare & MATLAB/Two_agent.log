@@ -1,0 +1,192 @@
+Starting Dynare (version 6.2).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+Found 31 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+8 block(s) found: 
+  7 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 21 equation(s) 
+                                 and 21 feedback variable(s). 
+Computing dynamic model derivatives (order 1). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+8 block(s) found: 
+  7 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 21 equation(s) 
+                                 and 15 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+c        		 0.700293
+c_1      		 0.642866
+c_2      		 1.21714
+l        		 0.333333
+l_1      		 0.333333
+l_2      		 0.333333
+k        		 129.116
+k_agg    		 12.9116
+i        		 3.2279
+i_agg    		 0.32279
+g        		 0.104752
+t        		 0.0789485
+t_1      		 0.0789485
+t_2      		 0.0789485
+w        		 2.25567
+rK       		 0.0291169
+y        		 1.12784
+r_real   		 1.00412
+b_h      		 10.3761
+b_g      		 -1.03761
+q        		 0.8216
+lambda_1 		 1.55553
+lambda_2 		 0.8216
+mc       		 1
+e_b      		 1
+e_a      		 1
+e_gt     		 1
+c_log    		 -0.356256
+c1_log   		 -0.441819
+c2_log   		 0.196502
+w_log    		 0.813447
+
+
+Residuals of the static equations:
+Equation number  1: Marginal utility of consumption                 :       0.000000
+Equation number  2: Labor market equilibrium                        :       0.000000
+Equation number  3: Consumer Budget Constraint                      :       0.000000
+Equation number  4: FOC w.r.t to b: Euler Equation                  :       0.000000
+Equation number  5: FOC w.r.t to c: Marginal Utility of Consumption :       0.000000
+Equation number  6: FOC w.r.t to l: Disutility of labour            :       0.000000
+Equation number  7: FOC w.r.t k                                     :       0.000000
+Equation number  8: FOC w.r.t i                                     :       0.000000
+Equation number  9: Capital Law of Motion                           :       0.000000
+Equation number 10: Consumer Budget Constraint                      :       0.000000
+Equation number 11: Aggreg of Consumption                           :       0.000000
+Equation number 12: Aggreg Labour                                   :       0.000000
+Equation number 13: Total Transfers                                 :       0.000000
+Equation number 14: Agg Capital                                     :       0.000000
+Equation number 15: Agg Capital Law                                 :       0.000000
+Equation number 16: Production function (Cobb-Douglas)              :       0.000000
+Equation number 17: FOC w.r.t l                                     :       0.000000
+Equation number 18: FOC w.r.t k(-1)                                 :       0.000000
+Equation number 19: FOC w.r.t y (this is the Marginal cost)         :       0.000000
+Equation number 20: Transfers as % of GDP                           :       0.000000
+Equation number 21: Supply of bonds                                 :       0.000000
+Equation number 22: Share of Transfers to Sp                        :       0.000000
+Equation number 23: Gov Budget Constraint                           :       0.000000
+Equation number 24: No deficit Spending                             :       0.000000
+Equation number 25: Law of motion of the output shock               :       0.000000
+Equation number 26: Law of motion of the preference shock           :       0.000000
+Equation number 27: Law of motion of the transfer shock             :       0.000000
+Equation number 28: c_log                                           :       0.000000
+Equation number 29: c1_log                                          :       0.000000
+Equation number 30: c2_log                                          :       0.000000
+Equation number 31: w_log                                           :       0.000000
+
+
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+        1.86e-16         1.86e-16                0
+         0.02886         -0.02886                0
+             0.9              0.9                0
+             0.9              0.9                0
+             0.9              0.9                0
+          0.9753           0.9753                0
+            1.01             1.01                0
+       3.513e+18        3.513e+18                0
+       4.732e+20       -4.732e+20                0
+       2.472e+21        2.472e+21                0
+
+There are 4 eigenvalue(s) larger than 1 in modulus for 4 forward-looking variable(s)
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         31
+  Number of stochastic shocks: 3
+  Number of state variables:   6
+  Number of jumpers:           4
+  Number of static variables:  22
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eta_b     eta_a    eta_gt
+eta_b        0.000000  0.000000  0.000000
+eta_a        0.000000  0.000000  0.000000
+eta_gt       0.000000  0.000000  0.003600
+
+POLICY AND TRANSITION FUNCTIONS
+                                   g               y          r_real               c               w          c1_log          c2_log           c_log           w_log
+Constant                    0.104752        1.127835        1.004117        0.700293        2.255671       -0.441819        0.196502       -0.356256        0.813447
+k(-1)                      -0.000258       -0.000408       -0.000151        0.000805        0.000408        0.000145        0.005923        0.001150        0.000181
+k_agg(-1)                   0.031332        0.030839        0.000021        0.014679        0.056512        0.025203        0.000799        0.020962        0.025053
+b_g(-1)                     1.006773        0.004200        0.001555       -0.008291       -0.004200       -0.001496       -0.061004       -0.011839       -0.001862
+e_a(-1)                     1.065270        1.073972        0.025637        0.513944        1.971184        0.879006        0.044114        0.733898        0.873879
+e_gt(-1)                   -0.205298       -0.040452       -0.001116        0.049429        0.040452        0.073292        0.057705        0.070583        0.017933
+e_b(-1)                    -0.470102        0.468003        0.911620       -0.923931       -0.468003       -0.166758       -6.798308       -1.319348       -0.207478
+eta_b                      -0.522335        0.520003        1.012911       -1.026590       -0.520003       -0.185287       -7.553676       -1.465942       -0.230531
+eta_a                       1.183634        1.193302        0.028485        0.571049        2.190204        0.976673        0.049015        0.815442        0.970977
+eta_gt                     -0.228109       -0.044946       -0.001240        0.054921        0.044946        0.081436        0.064117        0.078426        0.019926
+
+
+THEORETICAL MOMENTS
+VARIABLE         MEAN  STD. DEV.   VARIANCE
+g              0.1048     0.0258     0.0007
+y              1.1278     0.0062     0.0000
+r_real         1.0041     0.0004     0.0000
+c              0.7003     0.0105     0.0001
+w              2.2557     0.0163     0.0003
+c1_log        -0.4418     0.0145     0.0002
+c2_log         0.1965     0.0182     0.0003
+c_log         -0.3563     0.0150     0.0002
+w_log          0.8134     0.0072     0.0001
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+           eta_b   eta_a  eta_gt
+g           0.00    0.00  100.00
+y           0.00    0.00  100.00
+r_real      0.00    0.00  100.00
+c           0.00    0.00  100.00
+w           0.00    0.00  100.00
+c1_log      0.00    0.00  100.00
+c2_log      0.00    0.00  100.00
+c_log       0.00    0.00  100.00
+w_log       0.00    0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables          g        y   r_real        c        w   c1_log   c2_log    c_log    w_log
+g             1.0000   0.6352   0.6888  -0.8878  -0.6781  -0.9165  -0.7400  -0.8878  -0.6781
+y             0.6352   1.0000  -0.1151  -0.2211   0.1286  -0.2878   0.0413  -0.2211   0.1286
+r_real        0.6888  -0.1151   1.0000  -0.9433  -0.9999  -0.9181  -0.9973  -0.9433  -0.9999
+c            -0.8878  -0.2211  -0.9433   1.0000   0.9387   0.9976   0.9653   1.0000   0.9387
+w            -0.6781   0.1286  -0.9999   0.9387   1.0000   0.9127   0.9961   0.9387   1.0000
+c1_log       -0.9165  -0.2878  -0.9181   0.9976   0.9127   1.0000   0.9450   0.9976   0.9127
+c2_log       -0.7400   0.0413  -0.9973   0.9653   0.9961   0.9450   1.0000   0.9653   0.9961
+c_log        -0.8878  -0.2211  -0.9433   1.0000   0.9387   0.9976   0.9653   1.0000   0.9387
+w_log        -0.6781   0.1286  -0.9999   0.9387   1.0000   0.9127   0.9961   0.9387   1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order          1       2       3       4       5
+g         0.8434  0.7584  0.6803  0.6101  0.5471
+y         0.8964  0.8088  0.7297  0.6585  0.5944
+r_real    0.9837  0.9671  0.9500  0.9328  0.9153
+c         0.9495  0.9017  0.8576  0.8167  0.7788
+w         0.9861  0.9699  0.9534  0.9365  0.9194
+c1_log    0.9415  0.8863  0.8357  0.7893  0.7465
+c2_log    0.9773  0.9550  0.9331  0.9115  0.8904
+c_log     0.9495  0.9017  0.8576  0.8167  0.7788
+w_log     0.9861  0.9699  0.9534  0.9365  0.9194
+Total computing time : 0h00m02s
