@@ -39,3 +39,9 @@ The model is a Real Business Cycle DSGE with two household types (savers and han
  
 - [Dynare](https://www.dynare.org/) ≥ 5.0 (for `.mod` files)
 - Python ≥ 3.10 with `pandas`, `matplotlib`, `numpy`
+
+## Main References
+ 
+- Känzig, D. R. (2023). *The Unequal Economic Consequences of Carbon Pricing*. NBER WP 31221.
+- Golosov, M. et al. (2014). *Optimal Taxes on Fossil Fuel in General Equilibrium*. Econometrica.
+- Barrage, L. (2019). *Optimal Dynamic Carbon Taxes*. Review of Economic Studies.
