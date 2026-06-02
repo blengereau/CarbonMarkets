@@ -37,8 +37,8 @@ The model is a Real Business Cycle DSGE with two household types (savers and han
 
 ## Requirements
  
-- [Dynare](https://www.dynare.org/) ≥ 5.0 (for `.mod` files)
-- Python ≥ 3.10 with `pandas`, `matplotlib`, `numpy`
+- [Dynare](https://www.dynare.org/) ≥ 5.0
+- Python ≥ 3.10 
 
 ## Main References
  
