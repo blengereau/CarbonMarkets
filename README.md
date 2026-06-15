@@ -19,7 +19,7 @@ without weakening emission reductions. Finally, I estimate that the share of rev
 The model is a Real Business Cycle DSGE with two household types (savers and hand-to-mouth), two production sectors (energy and non-energy), and a carbon market block. Firms must purchase emission allowances and can abate emissions at a convex cost. The model is calibrated to EU data at a quarterly frequency.
 
 # Results 
- 
+ Effects of a 1% icrease in carbon prices: 
 | Finding | Value |
 |---|---|
 | Consumption decline — hand-to-mouth households | −0.11% |
